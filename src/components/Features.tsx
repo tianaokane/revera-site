@@ -1,39 +1,39 @@
 const features = [
   {
     icon: "◉",
-    title: "Immersive Environments",
+    title: "Immersive Practice Spaces",
     description:
-      "Step into realistic boardrooms, conference halls, and interview rooms built for high-fidelity practice.",
+      "Step into realistic interview rooms, presentation spaces, and conversation scenarios designed for focused practice.",
   },
   {
     icon: "◎",
-    title: "AI-Powered Feedback",
+    title: "Structured Feedback",
     description:
-      "Receive real-time analysis of tone, pacing, eye contact, and body language from our coaching AI.",
+      "Review key parts of your performance, from clarity and confidence to pacing, response quality, and delivery.",
   },
   {
     icon: "⊕",
-    title: "Adaptive Scenarios",
+    title: "Adjustable Scenarios",
     description:
-      "Dynamic simulations that respond to your performance, scaling difficulty as your skills improve.",
+      "Practise with different levels of pressure, difficulty, and social context to build confidence gradually.",
   },
   {
     icon: "◈",
-    title: "Progress Analytics",
+    title: "Progress Tracking",
     description:
-      "Track your growth across every session with detailed metrics and personalized improvement paths.",
+      "Improve over time through repeat sessions, reflection, and visible development across the skills you want to strengthen.",
   },
   {
     icon: "◇",
-    title: "Live Coaching Mode",
+    title: "Guided Practice",
     description:
-      "Practice with a live human coach or peer inside the same virtual space for collaborative growth.",
+      "Designed to support solo rehearsal, peer feedback, or coached sessions depending on the setting and use case.",
   },
   {
     icon: "◆",
-    title: "Cross-Platform",
+    title: "Flexible Access",
     description:
-      "Works with leading VR headsets and in your browser — train anywhere, anytime.",
+      "Built with VR in mind, with scope for lightweight browser-based experiences during early development and testing.",
   },
 ];
 
@@ -43,26 +43,26 @@ export default function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Built for Serious Performers
+            Designed for Real-World Practice
           </h2>
-          <p className="text-slate-400 text-lg max-w-xl mx-auto">
-            Every feature in Revera is designed to close the gap between
-            practice and real-world excellence.
+          <p className="text-slate-400 text-lg max-w-2xl mx-auto">
+            Revera is being designed to make communication practice more
+            immersive, structured, and repeatable.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((f) => (
+          {features.map((feature) => (
             <div
-              key={f.title}
+              key={feature.title}
               className="card-glass rounded-2xl p-8 transition-all duration-300 hover:-translate-y-1 cursor-default"
             >
-              <div className="text-3xl text-sky-400 mb-5">{f.icon}</div>
+              <div className="text-3xl text-sky-400 mb-5">{feature.icon}</div>
               <h3 className="text-white font-semibold text-lg mb-2">
-                {f.title}
+                {feature.title}
               </h3>
               <p className="text-slate-400 text-sm leading-relaxed">
-                {f.description}
+                {feature.description}
               </p>
             </div>
           ))}
