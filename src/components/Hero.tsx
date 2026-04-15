@@ -4,7 +4,10 @@ export default function Hero() {
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-sky-500/5 blur-3xl animate-pulse-glow" />
         <div className="absolute top-1/2 left-1/4 w-[400px] h-[400px] rounded-full bg-blue-600/5 blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-[300px] h-[300px] rounded-full bg-cyan-500/5 blur-3xl animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
+        <div
+          className="absolute bottom-1/4 right-1/4 w-[300px] h-[300px] rounded-full bg-cyan-500/5 blur-3xl animate-pulse-glow"
+          style={{ animationDelay: "1.5s" }}
+        />
         <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
@@ -18,33 +21,33 @@ export default function Hero() {
       <div className="relative z-10 text-center max-w-5xl mx-auto px-6">
         <div className="inline-flex items-center gap-2 bg-sky-500/10 border border-sky-500/20 rounded-full px-4 py-1.5 text-sky-400 text-sm font-medium mb-8">
           <span className="w-2 h-2 bg-sky-400 rounded-full animate-pulse" />
-          Now in Early Access
+          Prototype in Progress
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
-          Train Like It{"'"}s{" "}
-          <span className="gradient-text">Real.</span>
+          Train Like It{"'"}s <span className="gradient-text">Real.</span>
           <br />
           Perform Like It Matters.
         </h1>
 
-        <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Revera places you inside immersive VR environments to sharpen your
-          communication skills for interviews, presentations, and high-stakes
-          conversations — before they happen.
+        <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+          Revera is an immersive communication training platform in development,
+          designed to help people practise interviews, presentations, and other
+          high-pressure conversations in realistic simulated environments.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-8 py-4 rounded-xl text-base transition-all hover:shadow-lg hover:shadow-sky-500/25 hover:-translate-y-0.5">
-            Start Training Free
+            Join Waitlist
           </button>
           <button className="card-glass text-white font-medium px-8 py-4 rounded-xl text-base transition-all hover:-translate-y-0.5">
-            Watch Demo
+            See the Concept
           </button>
         </div>
 
         <p className="text-slate-500 text-sm mt-6">
-          No headset required to get started &mdash; browser-based preview available
+          Starting with interviews, presentations, and real-world communication
+          practice
         </p>
       </div>
 
