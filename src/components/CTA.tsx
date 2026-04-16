@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="py-32 px-6">
+    <section id="cta" className="py-32 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <div className="relative rounded-3xl overflow-hidden card-glass p-16">
           <div className="absolute inset-0 pointer-events-none">
