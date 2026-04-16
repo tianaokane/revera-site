@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Revera — VR Communication Training",
+  title: "Revera — Immersive communication training in VR",
   description:
-    "Immersive VR communication training for interviews, presentations, and real-world performance.",
+    "Revera is a communication training platform in development, designed to help people practise interviews, presentations, and high-pressure conversations in immersive simulated environments.",
 };
 
 export default function RootLayout({
