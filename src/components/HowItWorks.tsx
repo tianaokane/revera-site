@@ -1,27 +1,27 @@
 const steps = [
   {
     number: "01",
-    title: "Choose Your Scenario",
+    title: "Choose a scenario",
     description:
-      "Select from a library of job interviews, presentations, sales pitches, and more — or build a custom scenario.",
+      "Start with communication challenges such as interviews, presentations, and other high-pressure speaking situations.",
   },
   {
     number: "02",
-    title: "Enter the Environment",
+    title: "Enter the environment",
     description:
-      "Put on your VR headset or open the browser experience. You're placed in a photorealistic setting with virtual participants.",
+      "Step into an immersive practice space designed to simulate pressure more realistically than traditional rehearsal.",
   },
   {
     number: "03",
-    title: "Practice & Perform",
+    title: "Practise and reflect",
     description:
-      "Engage with AI-driven characters who respond naturally to what you say. Every session feels authentic.",
+      "Work through the scenario, test your responses, and build confidence through repetition and structured practice.",
   },
   {
     number: "04",
-    title: "Review & Improve",
+    title: "Improve over time",
     description:
-      "After each session, review detailed AI feedback on your performance and track your progress over time.",
+      "Use feedback, self-review, and repeated sessions to strengthen performance where it matters most.",
   },
 ];
 
@@ -33,8 +33,9 @@ export default function HowItWorks() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             How Revera Works
           </h2>
-          <p className="text-slate-400 text-lg max-w-xl mx-auto">
-            From setup to breakthrough — four steps to communication mastery.
+          <p className="text-slate-400 text-lg max-w-2xl mx-auto">
+            Revera is being designed to make communication practice more
+            immersive, repeatable, and useful.
           </p>
         </div>
 
